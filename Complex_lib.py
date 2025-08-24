@@ -36,8 +36,8 @@ def cartesiano_a_polar(c):
     theta = math.atan2(b, a)
     return (r, theta)
 
-def polar_a_cartesiano(cp):
-    r, theta = cp
+def polar_a_cartesiano(c):
+    r, theta = c
     a = r * math.cos(theta)
     b = r * math.sin(theta)
     return (a, b)
