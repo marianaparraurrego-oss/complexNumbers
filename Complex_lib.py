@@ -14,9 +14,9 @@ def producto(c1, c2):
     d, e = c2
     return (a*d - b*e, a*e + b*d)
 
-def division(z1, z2):
-    a, b = z1
-    d, e = z2
+def division(c1, c2):
+    a, b = c1
+    d, e = c2
     denominador = d**2 + e**2
     if denominador == 0:
         print("No se puede dividir por 0")
