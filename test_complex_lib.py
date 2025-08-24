@@ -35,7 +35,7 @@ class TestComplexLib(unittest.TestCase):
         self.assertAlmostEqual(theta, math.pi/4, places=5)
 
     def test_polar_a_cartesiano(self):
-        z = cl.polar_a_cartesiano((2, math.pi/2))
+        c = cl.polar_a_cartesiano((2, math.pi/2))
         self.assertAlmostEqual(c[0], 0.0, places=5)
         self.assertAlmostEqual(c[1], 2.0, places=5)
 
@@ -45,3 +45,4 @@ class TestComplexLib(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
